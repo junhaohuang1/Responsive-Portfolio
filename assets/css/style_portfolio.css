@@ -1,343 +1,1079 @@
-		
-		body {
-			background-color: #ebebeb;
-			
-		}
-
-
-		#header {
-			background-color:#ffffff;
-			height: 70px;
-			border-bottom-style:solid;
-			border-bottom-color:#cccccc;
-			left:0;
-			top:0;
-			width:100%;
-			position: absolute;
-			
-
-
-		}
-
-		#name {
-			background-color:#4aaaa5;
-			color: white;
-			width:198px;
-			height:70px;
-			font-family:georgia;
-			text-align: center;
-			position: absolute;
-			left: 100px;
-			top: 0px;
-
-			
-
-		}
-
-		
-
-		#about {
-			height: 70px;
-			width: 50px;
-			display: inline-block;
-			padding: 20px;
-			float: right;
-
-		}
-
-		#portfolio {
-			float: right;
-			padding: 20px;
-
-
-		}
-
-		#contact {
-			float: right;
-			padding: 20px;
-			margin-right: 335px;
-			color: #777777;
-
-		}
-
-		a {
-			color: gray;
-			text-decoration: none;
-		}
-
-
-		#body {
-			background-color: white;
-			width: 650px;
-			position: relative;
-			bottom: 50px;
-			top: 100px;
-			left: 95px;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			float: top;
-			padding-bottom: 25px;
-
-		}
-		
-		
-		#projects{
-			background-color: #ffffff;
-			width: 650px;
-			margin-left: 100px;
-			height: 1000px;
-
-		}
-
-
-
-		#section {
-			top: 50px;
-			left: 20px;
-			position: relative;
-			color: #4aaaa5;
-			width: 523px;
-			font-style: georgia;
-			margin-left: 30px;
-			margin-right: 20px;
-			height: 75px;
-			border-bottom-color: #cccccc;
-			border-bottom-style: solid; 
-			line-height: 200%;
-
-		}
-
-		
-		#hangman{
-			float:left;
-			position:relative;
-			margin-right: 25px;
-			left: 50px;
-			top:100px;
-			
-
-		}
-
-		#hangman_pic{
-			
-			width: 250px;
-
-		}
-
-		#hangman1{
-			text-align: center;
-			color:#777777;
-			position:absolute;
-			top:120px;
-			padding-top: 15px;
-			height: 30px;
-			width: 250px;
-			font-size: 20px;
-			background-color: #4aaaa5;
-
-		}
-		
-		#RPG{
-			float:left;
-			position:relative;
-			left: 50px;
-			top:100px;
-		}
-		
-		#rpg_pic{
-			width: 250px;
-		}
-
-		#RPG1{
-			text-align: center;
-			color:#777777;
-			position:absolute;
-			top:120px;
-			padding-top: 15px;
-			height: 30px;
-			width: 250px;
-			font-size: 20px;
-			background-color: #4aaaa5;
-		}
-
-		#trivia{
-			position:relative;
-			margin-right: 25px;
-			margin-top: 55px;
-			float: left;
-			clear:both;
-			left: 50px;
-			top:100px;
-
-		}
-
-		#trivia_pic{
-			width: 250px;
-		}
-
-		#trivia1{
-			text-align: center;
-			color:#777777;
-			position:absolute;
-			top:120px;
-			padding-top: 15px;
-			height: 30px;
-			width: 250px;
-			font-size: 20px;
-			background-color: #4aaaa5;
-		}
-
-
-		#rutgers{
-			float:left;
-			position:relative;
-			margin-top: 55px;
-			left: 50px;
-			top:100px;
-		}
-
-		#rutgers_pic{
-			width: 250px;
-		}
-
-		#rutgers1{
-			text-align: center;
-			color:#777777;
-			position:absolute;
-			top:120px;
-			padding-top: 15px;
-			height: 30px;
-			width: 250px;
-			font-size: 20px;
-			background-color: #4aaaa5;
-		}
-
-		#tv{
-			position:relative;
-			margin-right: 25px;
-			margin-top: 55px;
-			float:left;
-			clear:both;
-			left: 50px;
-			top:100px;
-		}
-
-		#tv_pic{
-			width: 250px;
-		}
-
-		#tv1{
-			text-align: center;
-			color:#777777;
-			position:absolute;
-			top:120px;
-			padding-top: 15px;
-			height: 30px;
-			width: 250px;
-			font-size: 20px;
-			background-color: #4aaaa5;
-		}
-
-
-
-	
-
-		#content {
-			margin-top: 15px;
-			margin-left: 20px;
-			margin-right: 20px;
-
-
-		}
-
-		#image {
-			float: left;
-			margin-right: 20px;
-			width: 150px;
-			height: 200px;
-		}
-
-		#text {
-			line-height:200%;
-			font-family: sans-serif;
-			color: #777777;
-		}
-
-		#text1 {
-			line-height: 200%;
-			font-family: sans-serif;
-			color: #777777;
-		}
-
-		#connect {
-			width: 270px;
-			height: 185px;
-			position: absolute;
-			background-color: white;
-			color: #4aaaa5;
-			font-style: georgia;
-			top: 195px;
-			left:950px;
-			float:left;
-
-
-		}
-
-		#connect1 {
-			border-bottom-style:solid;
-			border-bottom-color:#cccccc;
-			margin-right: 30px;
-			margin-left: 30px;
-			height: 20px;
-			padding-bottom: 20px;
-			font-size: 20px;
-
-
-
-		}
-		
-		#git {
-			width: 70px;
-			height: 70px;
-			position: absolute;
-			left: 20px;
-		}
-
-
-
-		#linked {
-			width: 70px;
-			height: 70px;
-			position: absolute;
-			left:100px;
-
-		}
-
-
-		#stack {
-			width: 70px;
-			height: 70px;
-			position: absolute;
-			left:180px;
-
-
-		}
-
-	#footer {
-			background-color: #666666;
-			border-top-color: #4aaaa5;
-			border-top-style: solid;
-			border-top-width: 7px;
-			position: fixed;
-			left:0;
-			bottom: 0;
-			width: 100%;
-			height: 70px;
-			text-align: center;
-			vertical-align: middle;
-			color: #777777;
-			float:left;
-			clear:left;
-			margin-top: -180px;
-
-		}
+body {
+    background-color: #ebebeb;
+}
+
+
+#header {
+    background-color: #ffffff;
+    height: 70px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 198px;
+    height: 50px;
+    font-family: georgia;
+    text-align: center;
+    position: relative;
+    float: left;
+    left: 100px;
+    padding-top: 20px;
+}
+
+
+
+#about {
+    width: 50px;
+    padding: 20px;
+    float: right;
+}
+
+#portfolio {
+    float: right;
+    padding: 20px;
+}
+
+#contact {
+    float: right;
+    padding: 20px;
+    color: #777777;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+#body {
+    background-color: white;
+    width: 650px;
+    position: relative;
+    bottom: 50px;
+    top: 100px;
+    left: 95px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: top;
+    padding-bottom: 25px;
+}
+
+
+#projects {
+    background-color: #ffffff;
+    width: 650px;
+    margin-left: 100px;
+    height: 1000px;
+            font-size: 35px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        color: #4aaaa5;
+        line-height: 20%;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        color: #4aaaa5;
+}
+
+
+
+#section {
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+    border-bottom: 3px solid #D3D3D3;
+    line-height: 20%;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    width: 84%;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+#hangman {
+    float: left;
+    position: relative;
+    margin-right: 25px;
+    left: 50px;
+    top: 100px;
+}
+
+#hangman_pic {
+
+    width: 250px;
+}
+
+#hangman1 {
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 120px;
+    padding-top: 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+}
+
+#RPG {
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+#rpg_pic {
+    width: 250px;
+}
+
+#RPG1 {
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 120px;
+    padding-top: 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+}
+
+#trivia {
+    position: relative;
+    margin-right: 25px;
+    margin-top: 55px;
+    float: left;
+    clear: both;
+    left: 50px;
+    top: 100px;
+}
+
+#trivia_pic {
+    width: 250px;
+}
+
+#trivia1 {
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 120px;
+    padding-top: 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+}
+
+
+#rutgers {
+    float: left;
+    position: relative;
+    margin-top: 55px;
+    left: 50px;
+    top: 100px;
+}
+
+#rutgers_pic {
+    width: 250px;
+}
+
+#rutgers1 {
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 120px;
+    padding-top: 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+}
+
+#tv {
+    position: relative;
+    margin-right: 25px;
+    margin-top: 55px;
+    float: left;
+    clear: both;
+    left: 50px;
+    top: 100px;
+}
+
+#tv_pic {
+    width: 250px;
+}
+
+#tv1 {
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 120px;
+    padding-top: 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+}
+
+
+
+
+
+#content {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+#text {
+    line-height: 200%;
+    font-family: sans-serif;
+    color: #777777;
+}
+
+#text1 {
+    line-height: 200%;
+    font-family: sans-serif;
+    color: #777777;
+}
+
+#connect {
+    width: 270px;
+    height: 185px;
+    position: absolute;
+    background-color: white;
+    color: #4aaaa5;
+    font-style: georgia;
+    top: 195px;
+    left: 950px;
+    float: left;
+}
+
+#connect1 {
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#git {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+}
+
+
+
+#linked {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 100px;
+}
+
+
+#stack {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 180px;
+}
+
+#footer {
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 7px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    color: #777777;
+    float: left;
+    clear: left;
+    margin-top: -180px;
+}
+
+@media screen and (max-width: 980px) {
+    #header {
+        background-color: #ffffff;
+        height: 70px;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #name {
+        background-color: #4aaaa5;
+        color: white;
+        width: 198px;
+        height: 50px;
+        font-family: georgia;
+        text-align: center;
+        position: relative;
+        float: left;
+        left: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    #about {
+        width: 50px;
+        padding: 20px;
+        float: right;
+    }
+
+    #portfolio {
+        float: right;
+        padding: 20px;
+    }
+
+    #contact {
+        float: right;
+        padding: 20px;
+        color: #777777;
+    }
+
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+
+
+
+   #section {
+        font-size: 30px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        line-height: 20%;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+        width: 81%;
+        color: #4aaaa5;
+        margin-left: 10%;
+        top: 2%;
+        padding-bottom: 5%;
+
+    }
+    #projects {
+        font-size: 35px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        line-height: 10%;
+        padding-top: 20px;
+        margin-right: 10px;
+        margin-left: 11%;
+        width: 50%;
+        padding-bottom: 0px;
+        height: 1750px;
+        margin-bottom: 15%;
+
+    }
+
+    #hangman {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        top: 2%;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+
+    #hangman_pic {
+        width: 100%;
+    }
+
+    #hangman1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #RPG {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 0%;
+        top:4%;
+    }
+
+    #rpg_pic {
+        width: 100%;
+    }
+
+    #RPG1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #trivia {
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top:4%;
+    }
+
+    #trivia_pic {
+        width: 100%;
+    }
+
+    #trivia1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+
+    #rutgers {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top:4%;
+    }
+
+    #rutgers_pic {
+        width: 100%;
+    }
+
+    #rutgers1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #tv {
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top:4%;
+    }
+
+    #tv_pic {
+        width: 100%;
+    }
+
+    #tv1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+
+
+    #connect {
+        width: 270px;
+        height: 20%;
+        position: absolute;
+        background-color: white;
+        color: #4aaaa5;
+        font-style: georgia;
+        top: 17%;
+        left: 72%;
+        float: left;
+    }
+
+    #connect1 {
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    #git {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 20px;
+    }
+
+
+
+    #linked {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 100px;
+    }
+
+
+    #stack {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 180px;
+    }
+
+    #footer {
+        background-color: #666666;
+        border-top-color: #4aaaa5;
+        border-top-style: solid;
+        border-top-width: 7px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        vertical-align: middle;
+        color: #777777;
+        float: left;
+        clear: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        background-color: #ffffff;
+
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    #name {
+        background-color: #4aaaa5;
+        color: white;
+        width: 198px;
+        height: 50px;
+        font-family: georgia;
+        text-align: center;
+        position: relative;
+        float: left;
+        left: 5%;
+        padding-top: 20px;
+    }
+
+
+
+    #about {
+        width: 50px;
+        padding: 20px;
+        float: right;
+    }
+
+    #portfolio {
+        float: right;
+        padding: 20px;
+    }
+
+    #contact {
+        float: right;
+        padding: 20px;
+        color: #777777;
+    }
+    #form {
+        height: 550px;
+        margin: 10px 15px 20px 15px;
+        width: 93%;
+        padding: 0px 10px 5px 0px;
+        position: relative;
+    }
+
+    #section {
+        font-size: 30px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        line-height: 20%;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        width: 84%;
+        color: #4aaaa5;
+        padding-bottom: 5%;
+    }
+    #projects {
+        font-size: 35px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        line-height: 20%;
+        padding-top: 20px;
+        margin-right: 10px;
+        margin-left: 2%;
+        width: 94%;
+    }
+
+    #hangman {
+        float: left;
+        position: relative;
+        left: 5%;
+        width: 40%;
+        top: 10%;
+    }
+
+    #hangman_pic {
+
+        width: 100%;
+    }
+
+    #hangman1 {
+        text-align: center;
+        color: #777777;
+        position: absolute;
+        top: 120px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #RPG {
+        float: left;
+        position: relative;
+        left: 12%;
+        width: 40%;
+        top: 10%;
+    }
+
+    #rpg_pic {
+        width: 100%;
+    }
+
+    #RPG1 {
+        text-align: center;
+        color: #777777;
+        position: absolute;
+        top: 120px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #trivia {
+        float: left;
+        position: relative;
+        left: 5%;
+        width: 40%;
+        top: 10%;
+        clear: both;
+    }
+
+    #trivia_pic {
+        width: 100%;
+    }
+
+    #trivia1 {
+        text-align: center;
+        color: #777777;
+        position: absolute;
+        top: 120px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+
+    #rutgers {
+        float: left;
+        position: relative;
+        left: 12%;
+        width: 40%;
+        top: 10%;
+    }
+
+    #rutgers_pic {
+        width: 100%;
+    }
+
+    #rutgers1 {
+        text-align: center;
+        color: #777777;
+        position: absolute;
+        top: 120px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #tv {
+        float: left;
+        position: relative;
+        left: 5%;
+        width: 40%;
+        top: 10%;
+        clear: both;
+    }
+
+    #tv_pic {
+        width: 100%;
+    }
+
+    #tv1 {
+        text-align: center;
+        color: #777777;
+        position: absolute;
+        top: 120px;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #connect {
+
+        position: relative;
+        left: 0;
+        bottom: 20%;
+        width: 100%;
+        height: 70px;
+        vertical-align: middle;
+        color: #777777;
+        float: left;
+        clear: left;
+        width: 94%;
+        margin: 10px -1px 100px 1px;
+        height: 200px;
+        left: 2%;
+    }
+
+    #connect1 {
+
+        border-bottom: 3px solid #D3D3D3;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    #git {
+        top: 45%;
+    }
+
+    #linked {
+        top: 45%;
+    }
+
+    #stack {
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #header {
+        background-color: #ffffff;
+        height: 120px;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    #name {
+        width: 100%;
+        margin: 0px;
+        left: 0px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+
+
+    #about {
+
+        text-align: center;
+        width: 30%;
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    #portfolio {
+
+        text-align: center;
+        width: 30%;
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    #contact {
+
+        text-align: center;
+        width: 33%;
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    #projects {
+        font-size: 35px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        color: #4aaaa5;
+        margin-left: 10px;
+        line-height: 20%;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        width: 95%;
+        height: 2000px;
+        color: #4aaaa5;
+    }
+
+    #section {
+        font-size: 30px;
+        font-weight: bold;
+        border-style: solid;
+        border-bottom: 3px solid #D3D3D3;
+        line-height: 20%;
+        padding-top: 5px;
+        width: 84%;
+        padding-bottom: 5%;
+    }
+
+    #hangman {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        top: 2%;
+        width: 80%;
+    }
+
+    #hangman_pic {
+        width: 100%;
+    }
+
+    #hangman1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #RPG {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        top: 4%;
+    }
+
+    #rpg_pic {
+        width: 100%;
+    }
+
+    #RPG1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #trivia {
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top: 4%;
+    }
+
+    #trivia_pic {
+        width: 100%;
+    }
+
+    #trivia1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+
+    #rutgers {
+
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top: 4%;
+    }
+
+    #rutgers_pic {
+        width: 100%;
+    }
+
+    #rutgers1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #tv {
+        position: relative;
+        margin-right: 25px;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        top: 4%;
+    }
+
+    #tv_pic {
+        width: 100%;
+    }
+
+    #tv1 {
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        top: 80%;
+        padding-top: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        background-color: #4aaaa5;
+    }
+
+    #connect {
+        position: relative;
+        left: 0;
+        bottom: 20%;
+        width: 100%;
+        height: 70px;
+        vertical-align: middle;
+        color: #777777;
+        float: left;
+        clear: left;
+        width: 94%;
+        margin: 10px -1px 100px 1px;
+        height: 200px;
+        left: 2%;
+    }
+
+    #connect1 {
+
+        border-bottom: 3px solid #D3D3D3;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    #git {
+        top: 45%;
+    }
+
+    #linked {
+        top: 45%;
+    }
+
+    #stack {
+        top: 45%;
+    }
+
+    #footer {
+        background-color: #666666;
+        border-top-color: #4aaaa5;
+        border-top-style: solid;
+        border-top-width: 7px;
+
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        vertical-align: middle;
+        color: #777777;
+        float: left;
+        clear: left;
+    }
+}
